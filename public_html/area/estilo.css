@@ -1,0 +1,25 @@
+h1{
+text-align: center;
+
+margin-top:40px;
+
+}
+
+.tabela{
+	border:1px solid #000;
+	/*width: 800px;*/
+	background: #fff;
+	color: #2c3e50;
+}
+.tabela .tr {border:1px solid #000;color: #2c3e50;}
+.tabela tr td{border:1px solid #000;color: #2c3e50;}
+table{border:1px solid #000;color: #2c3e50;}
+table tr td{border:1px solid #000;color: #2c3e50;}
+.tabela img{
+float: left;
+/*width: 300px;*/
+
+}
+h4, h3{
+
+}
