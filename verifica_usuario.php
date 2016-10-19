@@ -38,25 +38,7 @@ else{
 		
 			mysql_query("UPDATE usuarios SET data_ultimo_login = now() WHERE usuario_id ='{$usuario_id}'");
 
-			
-
-			if($_SESSION['nivel_usuario'] == 0){
-				
-				header("Location: area/index.php");
-			}
-
-			if($_SESSION['nivel_usuario'] == 1){
-
-			  header("Location: adm/index.php");
-			}
-			if($_SESSION['nivel_usuario'] == 2){
-
-			  header("Location: info/index.php");
-			}
-			if($_SESSION['nivel_usuario'] == 3){
-
-			  header("Location: responsavel/index.php");
-			}
+			header("Location: area/index.php");
 
 		}
 

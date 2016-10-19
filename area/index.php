@@ -134,6 +134,8 @@ echo "<a href=\"../logout.php\">Sair</a>";
                     <div class="title">
                        
                         <?
+include "../config.php";
+
 
 
 session_checker();
